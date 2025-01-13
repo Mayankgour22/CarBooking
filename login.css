@@ -1,0 +1,65 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ),
+        /* bottom, image */
+        url(car-8.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+section .part1 {
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8%;
+  height: 400px;
+  width: 400px;
+  /* border-radius: 20%; */
+}
+section .part1 .terms{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+section .part1 .inp{
+  width: 350px;
+  height: 40px;
+  font-size: 14px;
+}
+section .part1 h1 {
+  color: aliceblue;
+  font-size: 40px;
+}
+section .part1 h1 span{
+  color: green;
+  font-family: sans-serif
+}
+section .part1 button{
+  width: 200px;
+  height: 40px ;
+}
+section .part1 h2{
+  color: aliceblue;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+section p{
+  color: aliceblue;
+  font-family: sans-serif;
+  font-size: 17px;
+}

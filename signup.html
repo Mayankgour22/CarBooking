@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <h1  data-aos="fade-down" data-aos-duration="3000">CAR<span>BOOK</span></h1>
+    <div class="signup" data-aos="flip-left"data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+         <h1 class="hea1">Signup</h1>
+         <input type="text" placeholder="Enter Your Name" id="username">
+         <input type="email" placeholder="Enter Your email" id="email">
+         <input type="password" placeholder="Enter password" id="password">
+         <button onclick="return start()">Sign up</button>
+         <div class="rem"><input type="checkbox">Remember me </div>
+         <div><p>Already Have an account <a href="login.html">login</a></p></div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script src="carbook.js"></script>
+</body>
+</html>

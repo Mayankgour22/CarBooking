@@ -1,0 +1,75 @@
+.parentcar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    border: 1px solid gray;
+    height: 370px;
+}
+.parentcar .i20car {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 350px;
+  justify-self: center;
+}
+.parentcar .i20car img{
+  height: 250px;
+  width: 250px;
+  
+}
+.parentcar .i20car .pera{
+  color: rgb(21, 235, 250);
+  font-family: sans-serif;
+  font-size: 25px;
+  text-decoration: underline;
+}
+.parentcar .i20car i{
+  font-size: 30px;
+  border: 1px solid grey;
+  color: grey;
+  
+}
+.parentcar .i20car .sub{
+  color: green;
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+.parentcar .carsss{
+  display: flex;
+  flex-direction: column;
+  align-items:start ;
+  padding: 40px;
+  justify-content: space-evenly;
+  border: 1px solid grey;
+  height: 260px;
+  width: 200px;
+  font-family: sans-serif;
+  background-color: rgb(202, 200, 200);
+}
+.parentcar .car1{
+ height: 200px;
+ width: 200px;
+ display: flex;
+ flex-direction: column;
+ align-items: start;
+ padding-left: 40px;
+ color: black;
+ font-family: sans-serif;
+ background-color:  rgb(202, 200, 200);
+}
+.summry{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.updateshow{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 300px;
+  margin-top: 30px;
+}

@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="carbook.css" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="hero">
+      <section>
+        <nav class="navbar1">
+          <ul class="logo" data-aos="fade-down" data-aos-duration="3000">
+            <li>CAR<span class="cll">BOOK</span></li>
+          </ul>
+          <ul class="navbar">
+            <li data-aos="fade-down" data-aos-duration="1200">
+              <a href="">HOME</a>
+            </li>
+            <li data-aos="fade-down" data-aos-duration="1400">
+              <a href="#about">ABOUT</a>
+            </li>
+            <li data-aos="fade-down" data-aos-duration="1600">
+              <a href="">PRICING</a>
+            </li>
+            <li data-aos="fade-down" data-aos-duration="1800">
+              <a href="bookings.html">Bookings</a>
+            </li>
+            <li data-aos="fade-down" data-aos-duration="2000">
+              <a href="">CARS</a>
+            </li>
+            <li data-aos="fade-down" data-aos-duration="2200">
+              <a href="login.html">LOGIN</a>
+            </li>
+            <li data-aos="fade-down" data-aos-duration="2400">
+              <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+              <p id="show"></p>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <section class="sec2">
+        <h1 id="element">Fast & Easy Way To Rent A Car</h1>
+        <div class="cont">
+          <p>
+            Fast & Easy Way To Rent A Car A small river named Duden flows by
+            their place and supplies it with the necessary
+          </p>
+          <p>
+            regelialia. It is a paradisematic country, in which roasted parts
+          </p>
+        </div>
+        <div class="butt">
+          <button><i class="fa-solid fa-play"></i></button>
+          <p>Easy Steps for renting a car</p>
+        </div>
+      </section>
+    </header>
+    <section class="sec2">
+      <div class="inpp" data-aos="fade-right" data-aos-duration="1000">
+        <h1>MAKE YOUR TRIP</h1>
+        <div class="in">
+          <p>PICK-UP LOCATION</p>
+          <input
+            type="text"
+            placeholder="City,Airport,Station etc."
+            id="Location1"
+          />
+        </div>
+        <div class="in">
+          <p>DROP-OFF LOCATION</p>
+          <input
+            type="text"
+            placeholder="City,Airport,Station etc."
+            id="droplocation"
+          />
+        </div>
+        <div class="date">
+          <div>
+            <p>PICK-UP DATE</p>
+            <input type="date" id="date" />
+          </div>
+          <div>
+            <p>DROP-OFF DATE</p>
+            <input type="date" placeholder="Enter date" id="dropoffdate" />
+          </div>
+        </div>
+        <div class="in">
+          <p>PICK-UP TIME</p>
+          <input type="time" id="time" />
+        </div>
+        <button onclick="return ins()">Rent A Car Now</button>
+      </div>
+      <div class="fett" data-aos="fade-left" data-aos-duration="1000">
+        <h1>Better way to Rent Your Perfect Cars</h1>
+        <div class="logo">
+          <div class="logo1">
+            <i class="fa-solid fa-map-location"></i>
+            <p>Choose Your Pickup</p>
+            <p>Location</p>
+          </div>
+          <div class="logo2">
+            <i class="fa-regular fa-handshake"></i>
+            <p>Select Best Deal</p>
+          </div>
+          <div class="logo3">
+            <i class="fa-solid fa-car"></i>
+            <p>Reserve Your Rental</p>
+            <p>Car</p>
+          </div>
+        </div>
+        <div class="butt">
+          <button>Reserve Your Perfect Car</button>
+        </div>
+      </div>
+    </section>
+    <section class="book">
+      <div class="offers" data-aos="fade-down" data-aos-duration="1200">
+        <p>WHAT WE OFFER</p>
+        <h1>Feeatured Vehicles</h1>
+      </div>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="car1">
+              <img src="car-10.jpg" alt="" />
+              <h3>Mercedes Grand Seden</h3>
+              <div class="price">
+                <p>AMG A 45 S</p>
+                <p><span>$800 </span>/day</p>
+              </div>
+              <div class="butnnn">
+                <button class="btn1" onclick="cart()">Book Now</button>
+                <button class="btn2">Details</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="car1">
+              <img src="car-12.jpg" alt="" />
+              <h3>Audi Grand Seden</h3>
+              <div class="price">
+                <p>Audi Q3</p>
+                <p><span>$400 </span>/day</p>
+              </div>
+              <div class="butnnn">
+                <button class="btn1" onclick="cart()">Book Now</button>
+                <button class="btn2">Details</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="car1">
+              <img src="car-11.jpg" alt="" />
+              <h3>Mercedes Grand Seden</h3>
+              <div class="price">
+                <p>C-Class</p>
+                <p><span>$450 </span>/day</p>
+              </div>
+              <div class="butnnn">
+                <button class="btn1" onclick="cart()">Book Now</button>
+                <button class="btn2">Details</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="car1">
+              <img src="car-9.jpg" alt="" />
+              <h3>Mercedes Grand Seden</h3>
+              <div class="price">
+                <p>AMG GT</p>
+                <p><span>$900 </span>/day</p>
+              </div>
+              <div class="butnnn">
+                <button class="btn1" onclick="cart()">Book Now</button>
+                <button class="btn2">Details</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="car1">
+              <img src="car-8.jpg" alt="" />
+              <h3>Rubicon SUV</h3>
+              <div class="price">
+                <p>Wrangler</p>
+                <p><span>$500 </span>/day</p>
+              </div>
+              <div class="butnnn">
+                <button class="btn1" onclick="cart()">Book Now</button>
+                <button class="btn2">Details</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="car1">
+              <img src="car-7.jpg" alt="" />
+              <h3>Mercedes Grand Seden</h3>
+              <div class="price">
+                <p>Cheverolet</p>
+                <p><span>$500 </span>/day</p>
+              </div>
+              <div class="butnnn">
+                <button class="btn1" onclick="cart()">Book Now</button>
+                <button class="btn2">Details</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="car1">
+              <img src="car-6.jpg" alt="" />
+              <h3>Mercedes Grand Seden</h3>
+              <div class="price">
+                <p>Cheverolet</p>
+                <p><span>$500 </span>/day</p>
+              </div>
+              <div class="butnnn">
+                <button class="btn1" onclick="cart()">Book Now</button>
+                <button class="btn2">Details</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="car1">
+              <img src="car-5.jpg" alt="" />
+              <h3>Mercedes Grand Seden</h3>
+              <div class="price">
+                <p>Cheverolet</p>
+                <p><span>$500 </span>/day</p>
+              </div>
+              <div class="butnnn">
+                <button class="btn1" onclick="cart()">Book Now</button>
+                <button class="btn2">Details</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="car1">
+              <img src="car-4.jpg" alt="" />
+              <h3>Mercedes Grand Seden</h3>
+              <div class="price">
+                <p>Cheverolet</p>
+                <p><span>$500 </span>/day</p>
+              </div>
+              <div class="butnnn">
+                <button class="btn1" onclick="cart()">Book Now</button>
+                <button class="btn2">Details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="image">
+        <img src="bg_3.jpg" alt="" />
+      </div>
+      <div class="abt">
+        <p class="us">ABOUT US</p>
+        <h1>Welcome to Carbook</h1>
+        <p>
+          A small river named Duden flows by their place and supplies it <br />
+          with the necessary regelialia. It is a paradisematic country, in
+          <br />
+          which roasted parts of sentences fly into your mouth. <br />
+          <br />
+          On her way she met a copy. The copy warned the Little Blind <br />
+          Text, that where it came from it would have been rewritten a <br />
+          thousand times and everything that was left from its origin <br />
+          would be the word "and" and the Little Blind Text should turn <br />
+          around and return to its own, safe country. A small river named <br />
+          Duden flows by their place and supplies it with the necessary <br />
+          regelialia. It is a paradisematic country, in which roasted parts
+          <br />
+          of sentences fly into your mouth.
+        </p>
+        <button>Search Vehicle</button>
+      </div>
+    </section>
+    <section class="ourservice">
+      <div class="headservice">
+        <p>SERVICE</p>
+        <h1>Our Latest Service</h1>
+      </div>
+      <div class="bodyservice">
+        <div class="ele1">
+          <div class="bodyicon">
+            <i class="fa-solid fa-taxi"></i>
+          </div>
+          <div class="bodyheading">
+            <p>Weading Ceremoney</p>
+          </div>
+          <div class="describe">
+            <p>A small river named Duden</p>
+            <p>flows by their place and</p>
+            <p>supplies it with the necessary</p>
+            <p>regelialia.</p>
+          </div>
+        </div>
+        <div class="ele1">
+          <div class="bodyicon">
+            <i class="fa-solid fa-road"></i>
+          </div>
+          <div class="bodyheading">
+            <p>City Transfer</p>
+          </div>
+          <div class="describe">
+            <p>A small river named Duden</p>
+            <p>flows by their place and</p>
+            <p>supplies it with the necessary</p>
+            <p>regelialia.</p>
+          </div>
+        </div>
+        <div class="ele1">
+          <div class="bodyicon">
+            <i class="fa-solid fa-car-side"></i>
+          </div>
+          <div class="bodyheading">
+            <p>Airport Transfer</p>
+          </div>
+          <div class="describe">
+            <p>A small river named Duden</p>
+            <p>flows by their place and</p>
+            <p>supplies it with the necessary</p>
+            <p>regelialia.</p>
+          </div>
+        </div>
+        <div class="ele1">
+          <div class="bodyicon">
+            <i class="fa-solid fa-city"></i>
+          </div>
+          <div class="bodyheading">
+            <p>Whole City Tour</p>
+          </div>
+          <div class="describe">
+            <p>A small river named Duden</p>
+            <p>flows by their place and</p>
+            <p>supplies it with the necessary</p>
+            <p>regelialia.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="foot1">
+        <h1>CAR<span>BOOK</span></h1>
+        <div class="desfoot">
+          <p>Far far away, behind the word</p>
+          <p>mountains, far from the</p>
+          <p>countries Vokalia and</p>
+          <p>Consonantia, there live the</p>
+          <p>blind texts.</p>
+        </div>
+        <div class="footicon">
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+      </div>
+      <div class="foot2">
+        <h1>Information</h1>
+        <nav class="navbar5">
+          <a href=""><li>About</li></a>
+          <a href=""><li>Service</li></a>
+          <a href=""><li>Term and Condition</li></a>
+          <a href=""><li>Best Price Guarantee</li></a>
+          <a href=""><li>Privacy & Cooking Policy</li></a>
+        </nav>
+      </div>
+      <div class="foot3">
+        <h1>Customer Support</h1>
+        <nav class="navbar6">
+          <a href=""><li>FAQ</li></a>
+          <a href=""><li>Payment Option</li></a>
+          <a href=""><li>BOOKING TIPS</li></a>
+          <a href=""><li>How it works</li></a>
+          <a href=""><li>Contact Us</li></a>
+        </nav>
+      </div>
+      <div class="foot4">
+        <h1>Have a Question</h1>
+        <div class="foot4div">
+          <div><i class="fa-solid fa-location-dot"></i></div>
+          <div>
+            <p>203 Fake St. Mountain</p>
+            <p>View, San Francisco,</p>
+            <p>California, USA</p>
+          </div>
+        </div>
+        <div class="phoneno">
+          <i class="fa-solid fa-phone"></i>
+          <p>+2 392 3929 210</p>
+        </div>
+        <div class="phoneemail">
+          <i class="fa-solid fa-envelope"></i>
+          <p>info@yourdomain.com</p>
+        </div>
+      </div>
+    </section>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="swipper.js"></script>
+    <script src="carbook.js"></script>
+  </body>
+</html>

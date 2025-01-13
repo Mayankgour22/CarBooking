@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="carss.css">
+</head>
+<body>
+     <div class="parent">
+    <form action="">
+        <h1>MAKE YOUR TRIP</h1>
+        <div class="in">
+          <p>PICK-UP LOCATION</p>
+          <input
+            type="text"
+            placeholder="City,Airport,Station etc."
+            id="up1"
+          />
+        </div>
+        <div class="in">
+          <p>DROP-OFF LOCATION</p>
+          <input
+            type="text"
+            placeholder="City,Airport,Station etc."
+            id="off1"
+          />
+        </div>
+        <div class="date">
+          <div>
+            <p>PICK-UP DATE</p>
+            <input type="date" id="datepick" />
+          </div>
+          <div>
+            <p>DROP-OFF DATE</p>
+            <input type="date" placeholder="Enter date" id="datedrop" />
+          </div>
+        </div>
+        <div class="in">
+          <p>PICK-UP TIME</p>
+          <input type="time" id="timepick" />
+        </div>
+        <div class="carname">
+            <p>Select a car</p>
+            <select name="cars" id="namecar">
+                <option value="Audi Q3">Audi Q3</option>
+                <option value="AMG A 45 S">AMG A 45 S</option>
+                <option value="C-Class">C-Class</option>
+                <option value="AMG GT">AMG GT</option>
+                <option value="Wrangler">Wrangler</option>
+            </select>
+          <button onclick="return insert()">BOOK Car</button>
+           </div>
+        <button onclick="savedetailes()">detailes</button>
+        <div id="showcar1">
+
+        </div>
+        <div id="showcar2">
+        <img src="" alt="">
+        </div>
+     
+    </form>
+    </div>
+    <script src="carbook.js"></script>
+</body>
+</html>

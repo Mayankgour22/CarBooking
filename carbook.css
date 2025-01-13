@@ -1,0 +1,530 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  background: url(bg_1.jpg);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 20px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.hero .navbar1 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20%;
+  margin-left: 50px;
+}
+.hero .navbar1 .navbar {
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+  gap: 10%;
+}
+.hero .navbar1 ul {
+  list-style: none;
+  font-family: sans-serif;
+}
+.hero .navbar1 .navbar li a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+.hero .navbar1 ul li span {
+  color: green;
+}
+.hero .navbar1 .logo {
+  font-size: x-large;
+}
+.hero .sec2 {
+  padding-top: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.hero .sec2 .cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero .sec2 h1 {
+  font-family: sans-serif;
+  font-size: 40px;
+  color: wheat;
+}
+.hero .sec2 .cont p {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: wheat;
+}
+.hero .sec2 .butt {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.hero .sec2 .butt p {
+  font-family: sans-serif;
+  font-family: 30px;
+  color: wheat;
+}
+.hero .sec2 .butt button {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: rgb(52, 223, 246);
+  border-color: rgb(52, 223, 246);
+}
+.sec2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+.sec2 .inpp {
+  height: 500px;
+  width: 400px;
+  padding-left: 15px;
+  background-color: rgb(60, 164, 238);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30px;
+}
+.sec2 .inpp .date {
+  display: flex;
+  gap: 20px;
+}
+.sec2{
+  overflow: hidden;
+}
+.sec2 .inpp button {
+  height: 50px;
+  width: 300px;
+  background-color: rgb(50, 233, 172);
+  border: 1px solid rgb(50, 233, 172);
+  color: white;
+  font-family: sans-serif;
+  font-size: 15px;
+  border-radius: 5px;
+}
+.sec2 .inpp .date input {
+  height: 40px;
+  width: 150px;
+}
+.sec2 .inpp h1 {
+  color: white;
+  font-family: sans-serif;
+}
+.sec2 .inpp .in {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.sec2 .inpp .in p {
+  color: white;
+  font-family: sans-serif;
+}
+.sec2 .inpp .in input {
+  height: 40px;
+  width: 300px;
+}
+.sec2 .inpp p {
+  color: white;
+  font-family: sans-serif;
+}
+.sec2 .inpp input {
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid rgb(202, 197, 197);
+}
+::placeholder {
+  color: beige;
+  opacity: 1;
+  padding-left: 5px;
+}
+.sec2 .fett h1 {
+  font-size: 40px;
+  font-family: sans-serif;
+}
+.sec2 .fett {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+.sec2 .fett .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.sec2 .fett .logo i {
+  font-size: 40px;
+  height: 80px;
+  color: rgb(60, 164, 238);
+}
+.sec2 .fett .logo p {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.sec2 .fett .logo1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sec2 .fett .logo2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sec2 .fett .logo3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sec2 .fett .butt button {
+  height: 50px;
+  width: 200px;
+  background-color: rgb(60, 164, 238);
+  border: 1px solid rgb(60, 164, 238);
+  border-radius: 10px;
+  color: white;
+  font-family: sans-serif;
+}
+.book .option .car1 {
+  height: 300px;
+  width: 300px;
+}
+.book{
+  height: 70vh;
+}
+/* .book .option .car1 img {
+  height: 260px;
+  width: 260px;
+}
+.book .option .car1 .price {
+  display: flex;
+  align-items: flex-start;
+  justify-content: first baseline;
+  gap: 80px;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+.book .option .car1 .butnnn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.book .option {
+  margin-top: 20px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+}
+.book .option .car1 .butnnn button {
+  height: 25px;
+  width: 120px;
+}
+.book .option .car1 {
+  display: flex;
+  gap: 4px;
+  flex-direction: column;
+}
+.book .option .car1 h3 {
+  font-size: 23px;
+  font-family: sans-serif;
+}
+.book {
+  margin-top: 100px;
+}
+.book .offers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  gap: 15px;
+}*/
+.book .offers p {
+  color: rgb(19, 179, 232);
+} 
+.book .offers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  gap: 15px;
+}
+.swiper {
+  margin-top: 30px;
+  width: 80%;
+  height: 100%;
+}
+.book {
+  margin-top: 100px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-slide {
+  width: 33.333333%;
+}
+.swiper-slide .price{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  font-family: sans-serif;
+  
+}
+
+.swiper-slide .car1 .price p span{
+  color:rgb(37, 182, 218) ;
+}
+.swiper-slide .car1 .price p{
+  color: rgb(207, 202, 202);
+}
+.swiper-slide .car1{
+  display: flex;
+  gap: 3px;
+  flex-direction: column;
+}
+.swiper-slide .car1 .butnnn{
+  display: flex;
+  gap: 10px;
+}
+.swiper-slide .car1 .butnnn button{
+   height: 30px;
+   width: 140px;
+}
+ .car1 .butnnn .btn1{
+  background-color: rgb(37, 182, 218);
+  border: none;
+  border-radius: 10px;
+}
+ .car1 .butnnn .btn2{
+  background-color: rgb(31, 210, 153);
+  border: none;
+  border-radius: 10px;
+ }
+.swiper-slide h3{
+  font-size: 25px;
+  font-family: sans-serif;
+}
+.about{
+  margin-top: 120px;
+  display: flex;
+  background-color: rgb(86, 242, 174);
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.about .image img{
+   height: 400px;
+   width: 350px;
+}
+.about .abt{
+  display: flex;
+  height: 500px;
+  width: 450px;
+  font-family: sans-serif;
+  color: white;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+}
+.about .abt button{
+  height: 40px;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(62, 160, 234);
+}
+.about .us{
+  font-size: 20px
+}
+.about h1{
+  font-size: 30PX;
+}
+.ourservice {
+  margin-top: 40px;
+}
+.ourservice .headservice {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 10px;
+ font-family: sans-serif;
+ flex-direction: column;
+}
+.ourservice .headservice p{
+  color: rgb(17, 196, 236);
+  
+}
+.ourservice .bodyservice {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.ourservice .bodyservice .ele1{
+  display: flex;
+  height: 400px;
+  width: 250px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.ourservice .bodyservice .ele1 i{
+  font-size: 30px;
+  color: wheat;
+  
+}
+.ourservice .bodyservice .ele1 .bodyheading p{
+  font-size: 25px;
+  text-decoration: solid;
+  font-family: sans-serif;
+}
+.ourservice .bodyservice .ele1 .describe{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  font-family: sans-serif;
+  color: rgb(189, 187, 187);
+}
+.ourservice .bodyservice .ele1 .bodyicon{
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  border: 1px solid rgb(17, 196, 236);
+  background-color: rgb(17, 196, 236) ;
+}
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  background-color: black;
+  color: white;
+  height: 400px;
+  font-family: sans-serif;
+}
+.footer .foot1{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.footer .foot1 h1 span{
+  color: green;
+}
+.footer .foot1 p{
+  font-size: 20px;
+}
+.footer .foot1 i{
+  font-size: 25px;
+}
+.footer .foot1 .footicon{
+  display: flex;
+  gap: 15px;
+}
+.footer .foot2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.footer .foot2 .navbar5{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer .foot2 .navbar5 a{
+  text-decoration: none;
+  color: white;
+}
+.footer .foot2 .navbar5 a li{
+  list-style: none;
+}
+.footer .foot3{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.footer .foot3 .navbar6{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer .foot3 .navbar6 a{
+  text-decoration: none;
+  color: white;
+}
+.footer .foot3 .navbar6 a li{
+  list-style: none;
+}
+.footer .foot4{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.footer .foot4 .foot4div{
+  display: flex;
+  gap: 10px;
+}
+.footer .foot4 .phoneno{
+  display: flex;
+  gap: 10px;
+}
+.footer .foot4 .phoneemail{
+  display: flex;
+  gap: 10px;
+}
+
+
+/* .swiper-slide:nth-child(2n) {
+  width: 60%;
+}
+
+.swiper-slide:nth-child(3n) {
+  width: 40%;
+} */
